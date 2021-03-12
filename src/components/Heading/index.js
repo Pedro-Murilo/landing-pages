@@ -4,7 +4,7 @@ import { Title } from './styles';
 export const Heading = ({
   children,
   darkTheme = true,
-  size = 'big',
+  size = 'huge',
   as = 'h1',
   uppercase = false,
 }) => {
@@ -17,8 +17,8 @@ export const Heading = ({
 
 Heading.propTypes = {
   children: P.node.isRequired,
-  darkTheme: P.bool.isRequired,
-  as: P.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']).isRequired,
-  size: P.oneOf(['small', 'medium', 'big', 'huge']).isRequired,
-  uppercase: P.bool.isRequired,
+  darkTheme: P.bool,
+  as: P.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
+  size: P.oneOf(['small', 'medium', 'big', 'huge']),
+  uppercase: P.bool,
 };
