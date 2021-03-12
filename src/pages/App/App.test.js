@@ -1,6 +1,8 @@
 import Home from '.';
 import { renderTheme } from '../../styles/RenderTheme';
 
-test('renders learn react link', () => {
-  renderTheme(<Home />);
+describe('<Home />', () => {
+  it('should render home', () => {
+    renderTheme(<Home />);
+  });
 });
