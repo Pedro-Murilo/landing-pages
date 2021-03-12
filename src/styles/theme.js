@@ -1,8 +1,8 @@
 export const theme = {
   colors: {
-    bgDark: '#252525',
-  },
-  spacing: {
-    pY: '2.5rem',
+    black: '#252525',
+    white: '#f7f5f5',
+    green: '#06cf32',
+    red: '#e34040',
   },
 };
