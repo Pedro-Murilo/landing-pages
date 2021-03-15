@@ -29,14 +29,13 @@ describe('<MenuLink />', () => {
   });
 
   it('should match snapshot', () => {
-    renderTheme(
+    const { container } = renderTheme(
       <MenuLink link="http://github.com/Pedro-Murilo/" newTab={false}>
         children
       </MenuLink>,
     );
 
-    expect(screen.getByRole('link', { name: 'children' }))
-      .toMatchInlineSnapshot(`
+    expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         display: block;
         -webkit-text-decoration: none;
@@ -49,7 +48,7 @@ describe('<MenuLink />', () => {
       .c0::after {
         content: '';
         position: absolute;
-        bottom: 0;
+        bottom: 0.75rem;
         left: 50%;
         width: 0;
         height: 0.2rem;
