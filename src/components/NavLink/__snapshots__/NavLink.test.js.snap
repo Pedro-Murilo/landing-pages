@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavLink /> should match snapshot 1`] = `
+Array [
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #06cf32;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #e34040;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target1"
+    target="_self"
+  >
+    Link 1
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #06cf32;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #e34040;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target2"
+    target="_self"
+  >
+    Link 2
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #06cf32;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #e34040;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target3"
+    target="_self"
+  >
+    Link 3
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #06cf32;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #e34040;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target4"
+    target="_self"
+  >
+    Link 4
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #06cf32;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #e34040;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target5"
+    target="_self"
+  >
+    Link 5
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #06cf32;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #e34040;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target6"
+    target="_self"
+  >
+    Link 6
+  </a>,
+]
+`;
