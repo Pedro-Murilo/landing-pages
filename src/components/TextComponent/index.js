@@ -2,11 +2,7 @@ import P from 'prop-types';
 import { Container } from './styles';
 
 export const TextComponent = ({ children }) => {
-  return (
-    <Container>
-      <p>{children}</p>
-    </Container>
-  );
+  return <Container>{children}</Container>;
 };
 
 TextComponent.propTypes = {

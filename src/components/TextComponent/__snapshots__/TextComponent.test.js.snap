@@ -9,9 +9,7 @@ exports[`<TextComponent /> should match snapshot 1`] = `
   <p
     class="c0"
   >
-    <p>
-      children
-    </p>
+    children
   </p>
 </div>
 `;
