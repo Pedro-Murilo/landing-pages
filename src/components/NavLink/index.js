@@ -1,6 +1,5 @@
 import P from 'prop-types';
 import { Container } from './styles';
-
 import { MenuLink } from '../MenuLink';
 
 export const NavLink = ({ links = [] }) => {

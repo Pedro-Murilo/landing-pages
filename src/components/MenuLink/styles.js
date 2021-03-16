@@ -5,7 +5,7 @@ export const Container = styled.a`
     display: block;
     text-decoration: none;
     font-size: ${theme.font.sizes.small};
-    padding: ${theme.spacing.small};
+    padding: ${theme.spacing.sizes.small};
     color: ${theme.colors.green};
     position: relative;
 

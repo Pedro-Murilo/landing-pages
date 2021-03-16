@@ -1,21 +1,24 @@
 import { Menu } from '.';
 
-import LinkMock from '../NavLink/mock';
+import linksMock from '../NavLink/mock';
 
 export default {
   title: 'Menu',
   component: Menu,
   args: {
-    links: LinkMock,
+    links: linksMock,
     logoData: {
       text: 'Logo',
       link: '#target',
       srcImg: '',
     },
   },
-  argTypes: {
-    children: { type: 'string' },
-  },
 };
 
-export const Template = (args) => <Menu {...args} />;
+export const Template = (args) => {
+  return (
+    <div style={{ height: '300vh', background: 'gray' }}>
+      <Menu {...args} />
+    </div>
+  );
+};
