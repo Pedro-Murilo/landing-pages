@@ -41,6 +41,7 @@ describe('<MenuLink />', () => {
         -webkit-text-decoration: none;
         text-decoration: none;
         font-size: 1.6rem;
+        padding: 1.6rem;
         color: #06cf32;
         position: relative;
       }

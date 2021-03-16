@@ -16,6 +16,7 @@ exports[`<NavLink /> should match snapshot 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
+  padding: 1.6rem;
   color: #06cf32;
   position: relative;
 }
@@ -92,6 +93,34 @@ exports[`<NavLink /> should match snapshot 1`] = `
     target="_self"
   >
     Link 6
+  </a>
+  <a
+    class="c1"
+    href="#target7"
+    target="_self"
+  >
+    Link 7
+  </a>
+  <a
+    class="c1"
+    href="#target8"
+    target="_self"
+  >
+    Link 8
+  </a>
+  <a
+    class="c1"
+    href="#target9"
+    target="_self"
+  >
+    Link 9
+  </a>
+  <a
+    class="c1"
+    href="#target10"
+    target="_self"
+  >
+    Link 10
   </a>
 </nav>
 `;

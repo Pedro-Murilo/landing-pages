@@ -22,7 +22,7 @@ describe('<LogoLink />', () => {
     );
   });
 
-  it('should match snapshot', () => {
+  it('should match snapshots', () => {
     const { container } = renderTheme(
       <LogoLink link="#target" text="Logo" srcImg="image.jpg" />,
     );

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LogoLink /> should match snapshot 1`] = `
+exports[`<LogoLink /> should match snapshots 1`] = `
 .c1 {
   display: -webkit-box;
   display: -webkit-flex;
