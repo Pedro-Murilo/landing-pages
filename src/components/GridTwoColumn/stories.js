@@ -1,13 +1,11 @@
 import { GridTwoColumn } from '.';
 
+import mock from './mock';
+
 export default {
   title: 'GridTwoColumn',
   component: GridTwoColumn,
-  args: {
-    title: 'Grid Two Column',
-    text: 'Lorem',
-    srcImg: 'assets/images/logo.svg',
-  },
+  args: mock,
   argTypes: {
     children: { type: 'string' },
   },
