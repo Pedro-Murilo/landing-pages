@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import { Container as SectionContainer } from '../SectionContainer/styles';
 import { Title as Heading } from '../Heading/styles';
 
+// eslint-disable-next-line no-unused-vars
 const menuVisible = (theme) => css`
   visibility: visible;
   opacity: 1;
