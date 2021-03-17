@@ -10,15 +10,13 @@ export const GridTwoColumn = ({ title, text, srcImg, background = false }) => {
     <SectionBackground background={background}>
       <Container background={background}>
         <TextContainer>
-          <Heading uppercase colorDark={!background}>
-            {title}
-          </Heading>
+          <Heading uppercase>{title}</Heading>
           <TextComponent>{text}</TextComponent>
         </TextContainer>
+        <ImageContainer>
+          <Image src={srcImg} alt={title} />
+        </ImageContainer>
       </Container>
-      <ImageContainer>
-        <Image src={srcImg} alt={title} />
-      </ImageContainer>
     </SectionBackground>
   );
 };
