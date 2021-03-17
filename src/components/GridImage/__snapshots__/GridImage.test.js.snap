@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImage /> should render with background 1`] = `
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 > .c4 {
+  margin-bottom: 5.6rem;
+}
+
+.c6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 3.2rem;
+}
+
+.c7 {
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.c8:hover {
+  -webkit-transform: scale(1.1) rotate(5deg);
+  -ms-transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
+}
+
+.c0 {
+  background: #f7f5f5;
+  color: #252525;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c3 {
+  color: #e34040;
+  font-size: 5.6rem;
+  text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h2
+          class="c3"
+        >
+          My grid
+        </h2>
+        <p
+          class="c4 c5"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 1"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=1"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 2"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=2"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 3"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=3"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 4"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=4"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 5"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=5"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 6"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImage /> should render without background 1`] = `
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 > .c4 {
+  margin-bottom: 5.6rem;
+}
+
+.c6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 3.2rem;
+}
+
+.c7 {
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.c8:hover {
+  -webkit-transform: scale(1.1) rotate(5deg);
+  -ms-transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
+}
+
+.c0 {
+  background: #f7f5f5;
+  color: #252525;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c3 {
+  color: #e34040;
+  font-size: 5.6rem;
+  text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h2
+          class="c3"
+        >
+          My grid
+        </h2>
+        <p
+          class="c4 c5"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 1"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=1"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 2"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=2"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 3"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=3"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 4"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=4"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 5"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=5"
+            />
+          </div>
+          <div
+            class="c7"
+          >
+            <img
+              alt="Teste 6"
+              class="c8"
+              src="https://source.unsplash.com/random/800x800?r=6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
