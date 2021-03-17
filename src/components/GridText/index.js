@@ -9,14 +9,14 @@ export const GridText = ({ title, description, grid, background = false }) => {
   return (
     <SectionBackground background={background}>
       <Container>
-        <Heading size="huge" uppercase colorDark={!background}>
+        <Heading size="huge" as="h2" uppercase colorDark={!background}>
           {title}
         </Heading>
         <TextComponent>{description}</TextComponent>
         <Grid>
           {grid.map((element) => (
             <GridElement key={element.title}>
-              <Heading size="medium" colorDark={!background}>
+              <Heading as="h3" size="medium" colorDark={!background}>
                 {element.title}
               </Heading>
               <TextComponent>{element.description}</TextComponent>
