@@ -18,6 +18,20 @@ export const GlobalStyles = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    margin: ${({ theme }) => theme.spacing.sizes.xmedium} 0;
+  }
+
+  p {
+    margin: ${({ theme }) => theme.spacing.sizes.medium} 0;
+  }
+
+  ul, ol {
+    margin: ${({ theme }) => theme.spacing.sizes.medium};
+    padding: ${({ theme }) => theme.spacing.sizes.medium};
+  }
+
+  a {
+    color: ${({ theme }) => theme.colors.red};
   }
 `;
 
