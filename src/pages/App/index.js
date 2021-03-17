@@ -1,9 +1,8 @@
+import { Base } from '../Base';
+import { mockBase } from '../Base/stories';
+
 function Home() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <Base {...mockBase} />;
 }
 
 export default Home;
