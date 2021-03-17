@@ -6,10 +6,10 @@ exports[`<TextComponent /> should match snapshot 1`] = `
 }
 
 <div>
-  <p
+  <div
     class="c0"
   >
     children
-  </p>
+  </div>
 </div>
 `;
