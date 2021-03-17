@@ -1,5 +1,4 @@
 import { GridTwoColumn } from '.';
-
 import mock from './mock';
 
 export default {
@@ -11,4 +10,10 @@ export default {
   },
 };
 
-export const Template = (args) => <GridTwoColumn {...args} />;
+export const Template = (args) => {
+  return (
+    <div>
+      <GridTwoColumn {...args} />
+    </div>
+  );
+};
