@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export const mapSections = (sections = []) => {
   return sections.map((section) => {
     if (section.__component === 'section.section-two-columns') {
